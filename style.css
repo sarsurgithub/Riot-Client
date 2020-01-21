@@ -1,0 +1,322 @@
+body {
+    background-color:black;
+    background-image: url(https://lolstatic-a.akamaihd.net/lolkit/1.1.6/resources/images/bg-default.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#content {
+    background-color: #dedede;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 15%;
+    padding-bottom: 5%;
+    border-style: groove;
+    border-width: 5px;
+}
+h1 {
+    padding: 60px 0 11px 0;
+    font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color : #d1d3d5;
+    text-align: center; 
+}
+h2{
+    font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+    font-size: 24px;
+    text-align: center;
+    color: #d1d3d5;
+}
+h3{
+    font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #d1d3d5;
+    position: absolute;
+    bottom: 8px;
+    left:16px;
+    margin:0;
+}
+h4{
+    font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    font-size: 13px;
+    color: red;
+    font-weight: lighter
+}
+p{
+    font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    color: #3D403B;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    align-items: center;
+    font-size: 18px;
+}
+
+input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    width: auto;
+    border-color: #E8EEFA #ADB1BA #72757A #ADB1BA;
+    padding: 6px 20px 7px 20px;
+    background-color:none;
+    text-align: center;
+    display:inline-block;
+    outline: none;
+}
+#input {
+    box-sizing: border-box;
+    padding: 4px;
+    margin-top: 20px;
+}
+button {
+    color: #222;
+    border-color: #f6c653 #bd6a23 #b6631f #e8ab4a;
+    background: #d79922 url(https://lolstatic-a.akamaihd.net/lolkit/1.1.6/resources/images/lol-textures.jpg) no-repeat 50% -846px;
+    border-style: solid;
+    border-width: 3px;
+    width: auto;
+    font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+    font-weight: bold;
+    font-size:16px;
+    text-transform: uppercase;
+    padding: 6px 10px 4px 10px;
+    display: inline-block;
+    text-align: center;
+    outline: none;
+}
+button:hover{
+    border-color: #fdeaba #bf712c #b66521 #edbd6e;
+    background-position: 50% -878px;
+    cursor: pointer;
+}
+button:active{
+    border-color: #e1b03d #7f3517 #772d16 #c17f30;
+    background-position: 50% -911px;
+}
+#search {
+    box-sizing: border-box;
+    padding: 4px;
+    padding-top:3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+}
+#title{
+    padding: 3%;
+    justify-content: center;
+    background-image: url(header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sumId {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#random {
+    display : flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#champion {
+    position: relative;
+    text-align:center;
+    margin-bottom: 20px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-left: 1px solid rgba(84,84,84,0.3);
+    border-top: 1px solid rgba(84,84,84,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    border-right: 1px solid rgba(255,255,255,0.6);
+}
+#randomChampion {
+    align-items: center;
+    width: 100%;
+}
+#stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-bottom: 30px;
+
+}
+#boots {
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+#items {
+    padding: 10px;
+}
+#item1, #item2, #item3, #item4, #item0, #boots {
+    width: 65px;
+    padding:10px;
+    margin:5px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom:4px;
+    border-left: 1px solid rgba(84,84,84,0.3);
+    border-top: 1px solid rgba(84,84,84,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    border-right: 1px solid rgba(255,255,255,0.6);
+}
+#sumInfos{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#profileIcon {
+    width: 60px;
+    height: 60px;
+    padding:10px;
+    margin:5px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom:4px;
+    border-left: 1px solid rgba(84,84,84,0.3);
+    border-top: 1px solid rgba(84,84,84,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    border-right: 1px solid rgba(255,255,255,0.6);
+}
+#mastery{
+    font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    font-size: 20px;
+    color:#3D403B;
+    font-weight: lighter;
+    margin: 10px;
+}
+#sumName{
+    font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    font-size: 20px;
+    color:#3D403B;
+    margin:10px;
+}
+#listUsers{
+    font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    color: #3D403B;
+    list-style-position: inside;
+    width: auto;
+    font-size: 12px;
+    padding: 10px;
+}
+#runes{
+    display: flex;
+    justify-content: space-evenly;
+}
+#principal, #secondary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#textsecondaire{
+    padding-bottom: 10px;
+}
+#textprincipal, #textsecondaire{
+    font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    color: #3D403B;
+    font-size: 20px;
+}
+
+#rune1, #rune2, #rune3, #runes1, #runes2, #runes3, #runes0 {
+    width: 50px;
+    margin: 5px;
+    border-width: 3px ;
+    border-style: solid;
+    border-color: #72757A;
+    border-radius: 50%;
+    background-color: #72757A;
+}
+#rune0{
+    width: 100px;
+    padding: 5px;
+}
+#statMods{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#statmod0, #statmod1, #statmod2 {
+    background-color: black;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: #72757A;
+    border-style: solid;
+    margin: 3px;
+}
+#spell0, #spell1{
+    width: 55px;
+    padding:10px;
+    margin:5px;
+    margin-bottom: 15px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom:4px;
+    border-left: 1px solid rgba(84,84,84,0.3);
+    border-top: 1px solid rgba(84,84,84,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    border-right: 1px solid rgba(255,255,255,0.6);
+}
+#role{
+    padding: 10px;
+    padding-bottom: 25px;
+    font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;    
+    color: #3D403B;
+}
+.ui-tooltip, .arrow:after {
+    background: white;
+    border: 2px solid white;
+}
+.ui-tooltip {
+    background-color: rgba(255,255,255,0.6);
+    padding: 10px 20px;
+    color: black;
+    border-radius: 20px;
+    font: bold 12px "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+.arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}

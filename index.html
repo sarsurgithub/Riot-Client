@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Help Me Choose</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/hhh8gob.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    </head>
+    <body>
+        <div id = "title">
+            <h1>Random champion and stuff</h1>
+        </div>
+        <div id = "title2">
+            <h2>We pick a random champion and its stuff based on your mastery score</h2>  
+        </div>
+        <div id = "content">
+            <div id = "sumId">
+                <div id= "enter" > 
+                    <p>Enter your summoner name : </p>
+                </div>
+                <div id="input">
+                    <input id="sum" type = "text" value="" >
+                    <ul id='listUsers'>LAST TEN USERS</ul>
+                </div>
+                <div id = "search">
+                    <button>randomise</button>
+                </div>
+            </div>
+            <div id='contentApear'></div> 
+            <div id="wrapper"></div>
+        </div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="script.js"></script>
+        <script src="latestUsers.js"></script>
+    </body>
+</html>
