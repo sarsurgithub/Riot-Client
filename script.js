@@ -36,7 +36,7 @@ $(function() {
                 errorMessage.setAttribute('id','erreur')
                 input.appendChild(errorMessage)
         }else{
-            axios.get(`http://localhost:3000/randomise/${summonerName}`)
+            axios.get(`https://test-riot-server.herokuapp.com/randomise/${summonerName}`)
             .then (function(response){
                 if(response.data.error) {
                     const errorMessage = document.createElement('h4')
@@ -54,7 +54,7 @@ $(function() {
                     const rune = response.data.thePrincipalRunes
                     const secondaryRunes = response.data.theSecondaryRunes
                     const statMods = response.data.randomStatMods
-                    const summonerSpells = response.data.chosenSummonerSpells
+                    const summonerSpells = response.data.chosenSummonerSpell
                     const role = response.data.chosenRole
 
                     const runesCategory = rune.randomRune

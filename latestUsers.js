@@ -1,4 +1,4 @@
-axios.get('http://localhost:3000/latestUsers')
+axios.get('https://test-riot-server.herokuapp.com/latestUsers')
 .then(function(response){
     const users = response.data
     users.forEach((user, index) => {
